@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Cp & Cpk Calculator", layout="centered")
-st.markdown('<h1 style="font-size: 21pt; text-align: center;">Nissan - T/C engineering</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="font-size: 21pt; text-align: center;">Engineering</h1>', unsafe_allow_html=True)
 st.title("Cp & Cpk Calculator")
 
 st.markdown("""
@@ -81,4 +81,5 @@ if data.size > 1 and usl > lsl:
     st.pyplot(fig2)
 else:
     st.info("Please enter at least two data points and ensure USL > LSL.")
+
 
